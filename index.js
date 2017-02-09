@@ -2,4 +2,6 @@
 
 const path = require('path')
 
-module.exports = path.join(__dirname, 'names.txt')
+exports.male = path.join(__dirname, 'male-names.txt')
+exports.female = path.join(__dirname, 'female-names.txt')
+exports.last = path.join(__dirname, 'last-names.txt')

@@ -10,7 +10,7 @@ $ npm install --save namae
 ```js
 const fs = require('fs')
 
-// Returns the path to the word list which is separated by `\n`
+// Returns the path to the name list which is separated by `\n`
 const namaePath = require('namae')
 
 const namaeArray = fs.readFileSync(namaePath, 'utf8').split('\n');

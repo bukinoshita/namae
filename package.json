@@ -10,15 +10,19 @@
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "pretest": "node ./lib/fetch-male-names",
     "test": "xo && ava"
   },
   "devDependencies": {
-    "xo": "^0.17.1",
-    "ava": "*"
+    "ava": "*",
+    "xo": "^0.17.1"
   },
   "xo": {
     "space": true,
     "esnext": true,
     "semicolon": false
+  },
+  "dependencies": {
+    "got": "^6.7.1"
   }
 }

@@ -1,8 +1,9 @@
 import fs from 'fs'
 import test from 'ava'
-import namae from './../'
+import { male } from './../'
 
 test(t => {
-  t.true(namae.length > 0)
-  t.true(fs.statSync(namae).size > 2)
+  const mArray = fs.readFileSync(male, 'utf8').split('\n')
+
+  t.true(mArray.length > 0)
 })
