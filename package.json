@@ -1,7 +1,7 @@
 {
   "name": "namae",
   "version": "0.0.1",
-  "description": "List of names",
+  "description": "Get a list of names or a random name",
   "main": "index.js",
   "repository": {
     "url": "git@github.com:bukinoshita/namae.git",
@@ -10,7 +10,10 @@
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "pretest": "node ./lib/fetch-male-names",
+    "fetchMale": "node ./lib/fetch-male-names",
+    "fetchFemale": "node ./lib/fetch-female-names",
+    "fetchLastNames": "node ./lib/fetch-last-names",
+    "pretest": "npm run fetchMale && npm run fetchFemale && npm run fetchLastNames",
     "test": "xo && ava"
   },
   "devDependencies": {
@@ -23,6 +26,7 @@
     "semicolon": false
   },
   "dependencies": {
-    "got": "^6.7.1"
+    "got": "^6.7.1",
+    "unique-random-array": "^1.0.0"
   }
 }
