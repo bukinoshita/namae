@@ -50,6 +50,7 @@ Return a random name (can be male or female)
 
 ## Related
 - [Names](https://github.com/bukinoshita/Names) — List of names
+- [nickname](https://github.com/bukinoshita/nickname) — :kissing_cat: Get a list of nicknames or a random nickname
 - [rnd-age](https://github.com/bukinoshita/rnd-age) — :keycap_ten: Generate a random age
 - [rnd-date](https://github.com/bukinoshita/rnd-date) — :date: Get a random date
 - [faceit](https://github.com/bukinoshita/faceit) — :information_desk_person: Diverse user images for user interface design
