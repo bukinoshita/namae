@@ -1,6 +1,6 @@
 {
   "name": "namae",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Get a list of names or a random name",
   "main": "index.js",
   "repository": {
